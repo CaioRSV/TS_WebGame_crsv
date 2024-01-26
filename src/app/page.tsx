@@ -43,7 +43,10 @@ export default function Home() {
       }      
     }
     else{ // Continua
-      setEmoji((event.key).toUpperCase());
+      if(((event.key).toUpperCase()=="W") || ((event.key).toUpperCase()=="A") || ((event.key).toUpperCase()=="S") || ((event.key).toUpperCase()=="D")){
+        setEmoji((event.key).toUpperCase());
+      }
+      
     }
 
   };
