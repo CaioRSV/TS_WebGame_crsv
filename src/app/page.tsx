@@ -58,29 +58,28 @@ export default function Home() {
   const quickTimeEvent = () => {
     if(startVar){
       if(emoji=="W"){
-        console.log("W")
+        // console.log("W")
       }
       else if(emoji=="A"){
-        console.log("A")
+        // console.log("A")
       }
       else if(emoji=="S"){
-        console.log("S")
+        // console.log("S")
       }
       else if(emoji=="D"){
-        console.log("D")
+        // console.log("D")
       }
       else if (emoji=="⚠️"){
         //ignorando
       }
       else if((emoji=="🔥")){
-        console.log('oppanganganmastyle')
         const arrayTeclas = ['W','A','S','D']
         setHitbox([arrayTeclas[randomNumHitbox()-1], time+cooldown, false])
         setEmoji("⚠️");
       }
       else{
-        console.log('????');
-        gameSwitch();
+        // console.log('Jogo terminado pelo click de botão não');
+        // gameSwitch();
       }
     }
 
@@ -97,12 +96,12 @@ export default function Home() {
       setHitbox(["-", 0, false])
       setEmoji("🔥");
       setCooldown(2000);
-      console.log('ERROU')
+      // console.log('Errou...')
     }
     else if ((hitbox[0]!="-") && (emoji==hitbox[0]) && (time>hitbox[1])){
       setHitbox(["-", 0, false])
       setEmoji("🔥");
-      console.log('ACERTOU!!!!!')
+      // console.log('ACERTOU!!!!!')
       if(cooldown>300){
         setCooldown(cooldown-50);
       }
