@@ -1,3 +1,13 @@
+
+___
+Deployed in Vercel
+
+Jogo simples de esquiva/tempo de reação. 
+
+Feito com a utilização de TS/JS, e Next e Tailwind. Projeto originado por testes em meio a utilização do framework, e, por curiosidade, levado até o fim. Pela natureza de como foi feito, se torna mais fácil de se portar para outros sites.
+___
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
